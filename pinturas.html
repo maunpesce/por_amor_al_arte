@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El agujero en la media</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82d65e1dd9.js" crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="overlay">
+        <div class="slideshow">
+            <span class="btn_close ">&times;</span>
+            <div class="btn back-btn atras">
+                <i class="mdi mdi-arrow-left-circle-outline"></i>
+            </div>
+            <div class="btn next-btn adelante">
+                <i class="mdi mdi-arrow-right-circle-outline"></i>
+            </div>
+            <img id="img_slideshow" src="" alt="">
+        </div>
+    </div>
+
+
+
+    <header class="header">
+        <nav class="nav">
+
+            <a href="./index.html" class="home nav-link">Inicio</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu .nav-menu_visible">
+                <li class="nav-menu-item"><a href="./pinturas.html" class="nav-menu-link nav-link nav-menu-link_active">Pinturas</a></li>
+                <li class="nav-menu-item"><a href="./literatura.html" class="nav-menu-link nav-link nav-menu-link_active">Puntadas literarias</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="banner-pinturas">
+    </div>
+
+    <section class="tejedora-container">
+
+        <div class="tejedora-text">
+
+            <div class="text-container">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;(...) digo que, mejor que ninguno, Kupuka nos hablará sobre lo que es primordial. Tú, hermano Bor, dijiste: "Hablaremos mejor por boca de Zabralkán". Yo digo que hablaremos mejor por boca de Kupuka. <br> &nbsp;&nbsp;&nbsp;&nbsp;Igual que Bor, el Brujo de la Tierra había permanecido callado. Pero el artificio de Zabralkánpoco tenía que ver con eso, y mucho con mostrarle a Bor el largo trecho de soberbia que debía desandar. <br> &nbsp;&nbsp;&nbsp;&nbsp;Kupuka, descalzo y con olor a madriguera, empozó riendo. Sentado junto al esplendor de dos Astrónomos y un príncipe, el Brujo parecía, más que nunca, de barro. <br> &nbsp;&nbsp;&nbsp;&nbsp;-Zabralkán, que es anciano al lado de cualquiera, no lo es a mi lado. Sin embargo, ha sido más astuto. Me arrebató la calma y me paró sobre brasas. "Habla sobre lo primordial..." -el tono de Kupuka le quitaba toda seriedad a su queja-. Pero Zabralkán es un buen hermano y me allanó el camino. Ahora yo solamente deberé repetir lo que el mismo ha dicho con toda claridad. Zabralkána dijo: "Hablaremos mejor por boca de Kupuka". Eso es lo primordial. <br> &nbsp;&nbsp;&nbsp;&nbsp;Los que entendieron el camino que tomaba el Brujo empezaron a sonreír. <br> &nbsp;&nbsp;&nbsp;&nbsp;-"Hablaremos mejor por boca de Kupuka" es como decir que un Astrónomo de la Comarca Aislada no es mejor que un Brujo de los Confines. Y aquí yo comienzo a repetir: un Brujo de los Confines no es más ni es menos que un nogal; un nacimiento humano no es más ni es menos que una floración, un Astrónomo escrutando las estrellas no es más ni menos que un pez desovando. El cazador no es más ni es menos que la presa que necesita para vivir; un hombre no es más ni es menos que el maíz que lo alimenta. Esto es lo que Zabralkándijo; y es lo primordial. La Creación es una urdimbre perfecta. Todo en ella tiene su proporción y su correspondencia. Todo está hilado con todo en una trama infinita que no podrían reproducir ni mis amadas tejedoras del sur. Pobres de nosotros si olvidamos que somos un telar.</p>
+
+                <p class="cita">Liliana Bodoc en Los días del venado, primer volumen de la maravillosa Saga de los Confines.</p>
+
+            </div>
+
+            <img class="tejedora-img" src="./img/pinturas/tejedora.JPG" alt="Cuadro de una tejedora en el telar"
+
+        </div>
+
+    </section>
+
+    <section class="galery">
+        <div class="column">
+            <img src="./img/pinturas/tejedora-img1.JPG" alt="" data-img-mostrar="0">
+            <img src="./img/pinturas/esquila-img2.JPG" alt="" data-img-mostrar="1">
+            <img src="./img/pinturas/esquila-img3.JPG" alt="" data-img-mostrar="2">
+
+        </div>
+        <div class="column">
+
+            <img src="./img/pinturas/chulengos-img4.JPG" alt="" data-img-mostrar="3">
+            <img src="./img/pinturas/chulengos-img5.JPG" alt="" data-img-mostrar="4">
+            <img src="./img/pinturas/siesta-img6.JPG" alt="" data-img-mostrar="5">
+            <img src="./img/pinturas/siesta-img7.JPG" alt="">
+        </div>
+        <div class="column">
+
+            <img src="./img/pinturas/marita-img8.JPG" alt="" data-img-mostrar="6">
+            <img src="./img/pinturas/marita-img9.JPG" alt="">
+            <img src="./img/pinturas/cuis-img10.JPG" alt="" data-img-mostrar="7">
+            <img src="./img/pinturas/cuis-img11.JPG" alt="" data-img-mostrar="8">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2022 - Hecho por amor al arte.</p>
+
+    </footer>
+
+
+    
+</body>
+</html>
